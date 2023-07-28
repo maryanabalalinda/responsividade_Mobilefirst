@@ -1,0 +1,9 @@
+:root {
+    --cor: red;
+    --fonte-tamanho: 30px
+
+}
+body {
+    color: var(--cor);
+    font-size: var(--fonte-tamanho);
+}
