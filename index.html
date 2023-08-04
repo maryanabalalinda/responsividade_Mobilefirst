@@ -10,14 +10,25 @@
 
 </head>
 <body>
-    <h1 class="titulo">Salao Charme e Stylo, Mobile First</h1>
-    <h2 class="titulo">Testando o vercel</h2>
     <header class="cabecalho">
-        <span class="cabecalho__menu-hamburguer">Menu</span>
-        <img src="imagens/Logo.svg" alt="Logotipo da Biblioteca Start">
-        <a href="#"><img src="imagens/Favoritos.svg" alt="Meus favoritos"></a>
-        <a href="#"><img src="imagens/Emprestimos.svg" alt="Meus Empréstimos"></a>
-        <a href="#"><img src="imagens/Usuario.svg" alt="Meu Perfil"></a>
+        <div class="container">
+          <span class="cabecalho__menu-hamburguer"></span>
+          <img src="imagens/Logo.svg" alt="Logotipo da Biblioteca Start">
+          <h1 class="container__titulo">Biblioteca <b class="negrito">Balan</b></h1>
+          <div class="container__menu-item">
+            <a href="#"><h2>Categoria</h2></a>
+            <a href="#"><h2>Favoritos</h2></a>
+            <a href="#"><h2>Minha Estante</h2></a>
+          </div>
+        </div>
+
+        <div class="container">
+            <a href="#"><img src="imagens/Favoritos.svg" class="favorito" alt="Meus Favoritos"></a>
+            <a href="#"><img src="imagens/Emprestimos.svg" alt="Meus Empréstimos"></a>
+            <h2 class="container__menu-titulo">Minha Sacola</h2>
+            <a href="#"><img src="imagens/Usuario.svg" alt="Meu Perfil"></a>
+            <h2 class="container__menu-titulo">Meu Perfil</h2>
+        </div>
     </header>
 </body>
 </html>

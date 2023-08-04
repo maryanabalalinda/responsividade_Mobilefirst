@@ -1,9 +1,87 @@
-.cabecalho__menu-hamburguer{
-    width: 24px;
-    height: 24px;
-    background-image: url("../imagens/Menu.svg");
-    display: inline-block;
+.cabecalho__menu-hamburguer {
+  width: 24px;
+  height: 24px;
+  background-image: url("../imagens/Menu.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cabecalho{
+  background-color: var(--branco);
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container img, span {
+  padding: 1em;
+}
+
+
+.container__titulo {
+  display: none;
+}
+
+.container__menu-titulo{
+  display: none;
+}
+
+.container__menu-item {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {  
+
+  .container .favorito {
+    display: none;
   }
-  .cabecalho{
-    background-color: var(--branco);
+
+  .container__menu-item {
+    display: block;
   }
+
+  .cabecalho__menu-hamburguer {
+    display: none;
+  }
+
+  .cabecalho__menu-hamburguer {
+    display: none;
+  }
+
+  .container__titulo {
+    display: block;  
+    font-size: 1.875em;
+  }
+
+  .container__titulo .negrito {    
+    font-weight: bold;  
+  }
+
+  .cabecalho__menu {
+    display: none;
+  }
+
+  .container .favorito {
+    display: none;
+  }
+
+  .container__menu-item {      
+    padding: 1em;
+    display: flex;      
+  }
+
+  .container__menu-item a {
+    margin-left: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+Seus trabalhos
+Entregue
+
+GitHub - maryanabalalinda/responsividade_Mobilefirst: Projeto sobre responsividade e mobile first na turma de 2TDS colégio Balan
