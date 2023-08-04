@@ -81,7 +81,14 @@
     text-transform: uppercase;
   }
 }
-Seus trabalhos
-Entregue
+@media screen and (min-width: 1024px) {  
 
-GitHub - maryanabalalinda/responsividade_Mobilefirst: Projeto sobre responsividade e mobile first na turma de 2TDS colégio Balan
+  .container__menu-titulo{
+    display: block;
+  }
+
+  .container__menu-titulo:last-child{
+    padding-right: 1em;
+  }
+
+}
